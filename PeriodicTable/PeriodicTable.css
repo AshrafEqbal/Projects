@@ -1,0 +1,146 @@
+.a {background-color: #FFB6C1;} /* Noble gases */
+.b {background-color: #7FFFD4;} /* Reactive nonmetals */
+.c {background-color: #FFD700;} /* Halogens */
+.d {background-color: #C0C0C0;} /* Metalloids */
+.e {background-color: #D3D3D3;} /* Post-transition metals */
+.f {background-color: #4682B4;} /* Transition metals */
+.g {background-color: #8A2BE2;} /* Lanthanoids */
+.h {background-color: #A52A2A;} /* Actinides */
+.i {background-color: #5F9EA0;} /* Alkaline earth metals */
+.j {background-color: #D2691E;} /* Alkali metals */
+
+        #atomCanvas {
+            border: 1px solid black;
+        }
+        .atom {
+            margin-top: 20px;
+        }
+
+
+button:active {
+        background-color: #003d80;
+    }
+    td {
+        padding: 5px;
+        border: 1px solid #ccc;
+        text-align: center;
+    }
+
+
+    /* Hover effect for button */
+    button:hover {
+        background-color: #0056b3;
+    }
+
+    /* Active effect for button */
+    button:active {
+        background-color: #003d80;
+    }
+    /* Button styles */
+    button {
+        width: 80px; /* Sets the width of the button */
+        height: 50px; /* Sets the height of the button */
+        position: relative;
+        padding: 4px 8px;
+        font-size: 10px;
+        font-weight: bold;
+        color: black;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        outline: none;
+        transition: background-color 0.3s, color 0.3s;
+        text-align: center;
+    }
+
+    /* Atomic number styles */
+    .atomic-number {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        font-size: 10px;
+        font-weight: normal;
+    }
+
+    /* Hover effect for button */
+    button:hover {
+        background-color: #0056b3;
+    }
+.container {
+    width: 75%;
+    float: left;
+    padding: 10px;
+    border: 1px solid #ccc; /* Adding border to resemble iframe */
+    height: 100vh; /* Full viewport height */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    overflow: auto; /* Enable both vertical and horizontal scrolling */
+}
+
+.result-container {
+    width: 25%;
+    float: right;
+    padding: 10px;
+    border: 1px solid #ccc; /* Adding border to resemble iframe */
+    height: 100vh; /* half viewport height */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    overflow: auto; /* Enable both vertical and horizontal scrolling */
+}
+.atom {
+    width: 100%;
+    float: right;
+    padding: 10px;
+    border: 1px solid #ccc; /* Adding border to resemble iframe */
+    height: 50vh; /* half viewport height */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    overflow: auto; /* Enable both vertical and horizontal scrolling */
+}
+
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+            color: #333;
+        }
+
+        #master {
+            width: 80
+%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #007bff;
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        #info {
+            margin-top: 20px;
+        }
+
+        #info h2 {
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        #info p {
+            margin-bottom: 15px;
+        }
+#mass {font-weight:bold;}
+#no {font-weight:bold;}
+#state {font-weight:bold;}
+#mp {font-weight:bold;}
+#bp {font-weight:bold;}
+#density {font-weight:bold;}
+#electronegativity {font-weight:bold;}
